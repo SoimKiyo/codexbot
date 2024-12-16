@@ -1,0 +1,215 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-08-21T10_31_01_430Z-
+9 verbose logfile /home/container/.npm/_logs/2024-08-21T10_31_01_430Z-debug-0.log
+10 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@discordjs/builders': [ '1.8.2' ],
+15 silly audit   'discord-api-types': [ '0.37.83', '0.37.93' ],
+15 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.0' ],
+15 silly audit   '@discordjs/formatters': [ '0.4.0' ],
+15 silly audit   '@discordjs/rest': [ '2.3.0' ],
+15 silly audit   '@discordjs/util': [ '1.1.0' ],
+15 silly audit   '@discordjs/ws': [ '1.1.1' ],
+15 silly audit   '@leichtgewicht/ip-codec': [ '2.0.5' ],
+15 silly audit   '@mongodb-js/saslprep': [ '1.1.8' ],
+15 silly audit   '@sapphire/async-queue': [ '1.5.3' ],
+15 silly audit   '@sapphire/shapeshift': [ '3.9.7' ],
+15 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+15 silly audit   '@sindresorhus/is': [ '5.6.0' ],
+15 silly audit   '@szmarczak/http-timer': [ '5.0.1' ],
+15 silly audit   '@types/http-cache-semantics': [ '4.0.4' ],
+15 silly audit   '@types/node': [ '22.0.2', '18.19.42' ],
+15 silly audit   '@types/node-fetch': [ '2.6.11' ],
+15 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+15 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+15 silly audit   '@types/ws': [ '8.5.12' ],
+15 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.5' ],
+15 silly audit   'abort-controller': [ '3.0.0' ],
+15 silly audit   accepts: [ '1.3.8' ],
+15 silly audit   agentkeepalive: [ '4.5.0' ],
+15 silly audit   'array-flatten': [ '1.1.1' ],
+15 silly audit   asynckit: [ '0.4.0' ],
+15 silly audit   axios: [ '1.7.3' ],
+15 silly audit   'body-parser': [ '1.20.2' ],
+15 silly audit   bson: [ '6.8.0' ],
+15 silly audit   bytes: [ '3.1.2' ],
+15 silly audit   'cacheable-lookup': [ '7.0.0' ],
+15 silly audit   'cacheable-request': [ '10.2.14' ],
+15 silly audit   'call-bind': [ '1.0.7' ],
+15 silly audit   'clone-regexp': [ '3.0.0' ],
+15 silly audit   'combined-stream': [ '1.0.8' ],
+15 silly audit   'content-disposition': [ '0.5.4' ],
+15 silly audit   'content-type': [ '1.0.5' ],
+15 silly audit   'convert-hrtime': [ '5.0.0' ],
+15 silly audit   cookie: [ '0.6.0' ],
+15 silly audit   'cookie-signature': [ '1.0.6' ],
+15 silly audit   cors: [ '2.8.5' ],
+15 silly audit   'crypto-js': [ '3.3.0' ],
+15 silly audit   debug: [ '2.6.9', '4.3.6' ],
+15 silly audit   ms: [ '2.0.0', '2.1.2', '2.1.3' ],
+15 silly audit   'decompress-response': [ '6.0.0' ],
+15 silly audit   'mimic-response': [ '3.1.0', '4.0.0' ],
+15 silly audit   'defer-to-connect': [ '2.0.1' ],
+15 silly audit   'define-data-property': [ '1.1.4' ],
+15 silly audit   'delayed-stream': [ '1.0.0' ],
+15 silly audit   depd: [ '2.0.0' ],
+15 silly audit   destroy: [ '1.2.0' ],
+15 silly audit   'discord.js': [ '14.15.3' ],
+15 silly audit   'dns-packet': [ '5.6.1' ],
+15 silly audit   'dns-socket': [ '4.2.2' ],
+15 silly audit   'ee-first': [ '1.1.1' ],
+15 silly audit   encodeurl: [ '1.0.2' ],
+15 silly audit   'es-define-property': [ '1.0.0' ],
+15 silly audit   'es-errors': [ '1.3.0' ],
+15 silly audit   'escape-html': [ '1.0.3' ],
+15 silly audit   etag: [ '1.8.1' ],
+15 silly audit   'event-target-shim': [ '5.0.1' ],
+15 silly audit   express: [ '4.19.2' ],
+15 silly audit   'fast-deep-equal': [ '3.1.3' ],
+15 silly audit   finalhandler: [ '1.2.0' ],
+15 silly audit   'follow-redirects': [ '1.15.6' ],
+15 silly audit   'form-data': [ '4.0.0' ],
+15 silly audit   'form-data-encoder': [ '1.7.2', '2.1.4' ],
+15 silly audit   'formdata-node': [ '4.4.1' ],
+15 silly audit   'web-streams-polyfill': [ '4.0.0-beta.3', '3.3.3' ],
+15 silly audit   forwarded: [ '0.2.0' ],
+15 silly audit   fresh: [ '0.5.2' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   'function-timeout': [ '0.1.1' ],
+15 silly audit   'get-intrinsic': [ '1.2.4' ],
+15 silly audit   'get-stream': [ '6.0.1' ],
+15 silly audit   gopd: [ '1.0.1' ],
+15 silly audit   got: [ '13.0.0' ],
+15 silly audit   'groq-sdk': [ '0.5.0' ],
+15 silly audit   'undici-types': [ '5.26.5', '6.11.1' ],
+15 silly audit   'has-property-descriptors': [ '1.0.2' ],
+15 silly audit   'has-proto': [ '1.0.3' ],
+15 silly audit   'has-symbols': [ '1.0.3' ],
+15 silly audit   hasown: [ '2.0.2' ],
+15 silly audit   'http-cache-semantics': [ '4.1.1' ],
+15 silly audit   'http-errors': [ '2.0.0' ],
+15 silly audit   'http2-wrapper': [ '2.2.1' ],
+15 silly audit   'humanize-ms': [ '1.2.1' ],
+15 silly audit   'iconv-lite': [ '0.4.24' ],
+15 silly audit   inherits: [ '2.0.4' ],
+15 silly audit   'ip-regex': [ '5.0.0' ],
+15 silly audit   'ipaddr.js': [ '1.9.1' ],
+15 silly audit   'is-ip': [ '5.0.1' ],
+15 silly audit   'is-regexp': [ '3.1.0' ],
+15 silly audit   'json-buffer': [ '3.0.1' ],
+15 silly audit   kareem: [ '2.6.3' ],
+15 silly audit   keyv: [ '4.5.4' ],
+15 silly audit   lodash: [ '4.17.21' ],
+15 silly audit   'lodash.snakecase': [ '4.1.1' ],
+15 silly audit   'lowercase-keys': [ '3.0.0' ],
+15 silly audit   'magic-bytes.js': [ '1.10.0' ],
+15 silly audit   'media-typer': [ '0.3.0' ],
+15 silly audit   'memory-pager': [ '1.5.0' ],
+15 silly audit   'merge-descriptors': [ '1.0.1' ],
+15 silly audit   methods: [ '1.1.2' ],
+15 silly audit   mime: [ '1.6.0' ],
+15 silly audit   'mime-db': [ '1.52.0' ],
+15 silly audit   'mime-types': [ '2.1.35' ],
+15 silly audit   mongodb: [ '6.8.0', '6.7.0' ],
+15 silly audit   'mongodb-connection-string-url': [ '3.0.1' ],
+15 silly audit   tr46: [ '4.1.1', '0.0.3' ],
+15 silly audit   'webidl-conversions': [ '7.0.0', '3.0.1' ],
+15 silly audit   'whatwg-url': [ '13.0.0', '5.0.0' ],
+15 silly audit   mongoose: [ '8.5.2' ],
+15 silly audit   mpath: [ '0.9.0' ],
+15 silly audit   mquery: [ '5.0.0' ],
+15 silly audit   negotiator: [ '0.6.3' ],
+15 silly audit   'node-domexception': [ '1.0.0' ],
+15 silly audit   'node-fetch': [ '2.7.0' ],
+15 silly audit   'node-hwid': [ '0.1.0' ],
+15 silly audit   'normalize-url': [ '8.0.1' ],
+15 silly audit   'object-assign': [ '4.1.1' ],
+15 silly audit   'object-inspect': [ '1.13.2' ],
+15 silly audit   'on-finished': [ '2.4.1' ],
+15 silly audit   'p-cancelable': [ '3.0.0' ],
+15 silly audit   parseurl: [ '1.3.3' ],
+15 silly audit   'path-to-regexp': [ '0.1.7' ],
+15 silly audit   'proxy-addr': [ '2.0.7' ],
+15 silly audit   'proxy-from-env': [ '1.1.0' ],
+15 silly audit   'public-ip': [ '7.0.1' ],
+15 silly audit   punycode: [ '2.3.1' ],
+15 silly audit   qs: [ '6.11.0' ],
+15 silly audit   'quick-lru': [ '5.1.1' ],
+15 silly audit   'range-parser': [ '1.2.1' ],
+15 silly audit   'raw-body': [ '2.5.2' ],
+15 silly audit   'resolve-alpn': [ '1.2.1' ],
+15 silly audit   responselike: [ '3.0.0' ],
+15 silly audit   'safe-buffer': [ '5.2.1' ],
+15 silly audit   'safer-buffer': [ '2.1.2' ],
+15 silly audit   send: [ '0.18.0' ],
+15 silly audit   'serve-static': [ '1.15.0' ],
+15 silly audit   'set-function-length': [ '1.2.2' ],
+15 silly audit   setprototypeof: [ '1.2.0' ],
+15 silly audit   'side-channel': [ '1.0.6' ],
+15 silly audit   sift: [ '17.1.3' ],
+15 silly audit   'sparse-bitfield': [ '3.0.3' ],
+15 silly audit   statuses: [ '2.0.1' ],
+15 silly audit   'super-regex': [ '0.2.0' ],
+15 silly audit   'time-span': [ '5.1.0' ],
+15 silly audit   toidentifier: [ '1.0.1' ],
+15 silly audit   'ts-mixer': [ '6.0.4' ],
+15 silly audit   tslib: [ '2.6.2' ],
+15 silly audit   'type-is': [ '1.6.18' ],
+15 silly audit   undici: [ '6.13.0' ],
+15 silly audit   unpipe: [ '1.0.0' ],
+15 silly audit   'utils-merge': [ '1.0.1' ],
+15 silly audit   uuid: [ '10.0.0' ],
+15 silly audit   vary: [ '1.1.2' ],
+15 silly audit   ws: [ '8.18.0' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 710ms
+17 silly audit report {
+17 silly audit report   axios: [
+17 silly audit report     {
+17 silly audit report       id: 1098583,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-8hc4-vh64-cxmj',
+17 silly audit report       title: 'Server-Side Request Forgery in axios',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=1.3.2 <=1.7.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   'crypto-js': [
+17 silly audit report     {
+17 silly audit report       id: 1096365,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-xwcq-pm8m-c4vf',
+17 silly audit report       title: 'crypto-js PBKDF2 1,000 times weaker than specified in 1993 and 1.3M times weaker than current standard',
+17 silly audit report       severity: 'critical',
+17 silly audit report       vulnerable_versions: '<4.2.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+19 silly packumentCache corgi:https://registry.npmjs.org/crypto-js cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/axios 73ms (cache revalidated)
+21 silly packumentCache corgi:https://registry.npmjs.org/axios set size:210916 disposed:false
+22 http fetch GET 200 https://registry.npmjs.org/crypto-js 162ms (cache revalidated)
+23 silly packumentCache corgi:https://registry.npmjs.org/crypto-js set size:16289 disposed:false
+24 silly packumentCache corgi:https://registry.npmjs.org/node-hwid cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/node-hwid 517ms (cache revalidated)
+26 silly packumentCache corgi:https://registry.npmjs.org/node-hwid set size:614 disposed:false
+27 verbose cwd /home/container
+28 verbose os Linux 5.15.0-118-generic
+29 verbose node v20.16.0
+30 verbose npm  v10.8.2
+31 verbose exit 0
+32 info ok
